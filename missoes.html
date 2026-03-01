@@ -9,12 +9,13 @@
         header { background-color: #0b0d12; padding: 30px; text-align: center; border-bottom: 2px solid #d4af37; }
         h1 { color: #d4af37; margin: 0; font-size: 2.5em; letter-spacing: 2px; }
         p.subtitle { color: #8c9da8; font-style: italic; }
-        nav { display: flex; justify-content: center; background-color: #1a1e26; padding: 15px; }
-        nav a { color: #d4af37; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 1.1em; transition: color 0.3s; }
+        nav { display: flex; justify-content: center; background-color: #1a1e26; padding: 15px; flex-wrap: wrap; }
+        nav a { color: #d4af37; text-decoration: none; margin: 10px 20px; font-weight: bold; font-size: 1.1em; transition: color 0.3s; }
         nav a:hover { color: #ffffff; }
         .container { max-width: 900px; margin: 40px auto; padding: 20px; }
         .card { background-color: #1a1e26; border: 1px solid #333; border-radius: 8px; padding: 20px; margin-bottom: 20px; border-left: 5px solid #d4af37; }
-        .card h2 { color: #d4af37; margin-top: 0; }
+        .card h2 { color: #d4af37; margin-top: 0; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .card ul { line-height: 1.6; }
         footer { text-align: center; padding: 20px; font-size: 0.9em; color: #666; margin-top: 40px; border-top: 1px solid #333; }
     </style>
 </head>
@@ -33,37 +34,62 @@
     </nav>
 
     <div class="container">
+        
         <div class="card">
             <h2>O Fantasma do Nosso Amor (Ghost of Our Love)</h2>
-            <p>Aquele mapa do tesouro com a ponte e as velas flutuantes.</p>
+            <p>O mapa com a ponte e as velas flutuantes.</p>
             <ul>
-                <li><strong>Onde ir:</strong> Vá para a entrada da Floresta Proibida, perto da ponte de pedra.</li>
-                <li><strong>O Segredo:</strong> Tem que ser <strong>de noite</strong>! Use o feitiço <em>Lumos</em> na ponte para fazer as velas aparecerem.</li>
-                <li><strong>O Tesouro:</strong> Siga as velas até uma mesa romântica dentro da floresta para revelar o baú.</li>
+                <li><strong>Onde ir:</strong> Vá para a entrada da Floresta Proibida, na ponte de pedra.</li>
+                <li><strong>O Segredo:</strong> Durante a <strong>noite</strong>, use <em>Lumos</em> na ponte para invocar as velas.</li>
+                <li><strong>O Tesouro:</strong> Siga as velas até uma mesa romântica dentro da floresta.</li>
             </ul>
         </div>
-
         <div class="card">
             <h2>Muito Bem, Muito Bem (Well, Well, Well)</h2>
-            <p>O mapa entregue pelo poço mágico tagarela.</p>
+            <p>O mapa do poço mágico tagarela.</p>
             <ul>
-                <li><strong>Onde ir:</strong> Use a Chama de Flu para Irondale (Região de Feldcroft) e voe para o sul/sudoeste em direção às ruínas no penhasco.</li>
-                <li><strong>O Segredo:</strong> Encontre a árvore solitária no meio das ruínas e lance o feitiço <em>Levioso</em> nela.</li>
-                <li><strong>O Tesouro:</strong> A árvore vai flutuar e revelar o baú nas raízes com o Chapéu Bicorne de Caçador de Tesouros.</li>
+                <li><strong>Onde ir:</strong> Voe para as ruínas ao sul de Irondale (Região de Feldcroft).</li>
+                <li><strong>O Segredo:</strong> Encontre a árvore solitária nas ruínas e use <em>Levioso</em> nela.</li>
             </ul>
         </div>
 
         <div class="card">
-            <h2>Tesouro no Castelo (Cache in the Castle)</h2>
-            <p>A caça ao tesouro iniciada pelo Arthur Plummly.</p>
+            <h2>Um Pássaro na Mão (A Bird in the Hand)</h2>
+            <p>A missão com o enigma da porta de Pedra-da-Lua iluminada.</p>
             <ul>
-                <li><strong>Passo 1:</strong> Desça as escadas da Ala de Astronomia até encontrar o esqueleto de Rinoceronte.</li>
-                <li><strong>Passo 2:</strong> Saia para o Pátio de Transfiguração e vá até a estátua da Fonte do Dragão.</li>
-                <li><strong>Passo 3:</strong> Entre nas portas duplas atrás da fonte e suba a escada à direita até o quadro da casa na neve.</li>
-                <li><strong>O Segredo:</strong> Use <em>Accio</em> no puxador no topo da moldura do quadro para abrir a passagem secreta!</li>
+                <li><strong>O Segredo:</strong> Observe os dois símbolos que brilham ao redor da porta.</li>
+                <li><strong>A Solução:</strong> Use <em>Accio</em> para mover as duas pilastras pelos trilhos. Posicione-as do lado oposto à luz central para projetar a sombra exatamente em cima dos símbolos correspondentes desenhados no chão.</li>
             </ul>
         </div>
-    </div>
+
+        <div class="card">
+            <h2>Resolvido pelo Sino (Solved by the Bell)</h2>
+            <p>O mapa musical que toca o tema de Harry Potter!</p>
+            <ul>
+                <li><strong>Onde ir:</strong> Esconderijo da Henrietta, na região de Manor Cape.</li>
+                <li><strong>O Segredo:</strong> Você encontrará uma fileira de sinos mágicos. Atire neles com o ataque básico na ordem correta.</li>
+                <li><strong>A Ordem dos Sinos:</strong> Do menor pro maior (1 a 9): Toque 8 - 5 - 3 - 4 - 5 - 1 - 2 - 4.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>O Salão de Herodiana (The Hall of Herodiana)</h2>
+            <p>O maior enigma de blocos do jogo, pedido pela aluna Sophronia Franklin.</p>
+            <ul>
+                <li><strong>O Segredo:</strong> Fica na base da Torre de Defesa Contra as Artes das Trevas. Use o feitiço <em>Depulso</em> no botão dourado da parede para revelar a porta.</li>
+                <li><strong>A Solução:</strong> Use <em>Accio</em> e <em>Depulso</em> para empurrar e puxar os grandes blocos dourados, criando pontes para atravessar as três salas. Lembre-se que os blocos grudam uns nos outros!</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Nome da Nova Missão Aqui</h2>
+            <p>Descrição curta da missão.</p>
+            <ul>
+                <li><strong>Passo 1:</strong> O que fazer primeiro.</li>
+                <li><strong>Passo 2:</strong> Como resolver o enigma.</li>
+            </ul>
+        </div>
+        </div>
 
     <footer>
         <p>Projeto criado pela comunidade para a comunidade de Hogwarts Legacy.</p>
